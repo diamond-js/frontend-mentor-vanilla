@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Stats preview card component</title>
+
+  <link rel="stylesheet" href="./solution/styles/global.css">
+  <link rel="stylesheet" href="./solution/styles/index.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+<div class="cover">
+
+  <div class="card">
+
+
+    <div class="wrapper">
+      
+    <div class="image"> </div>
+
+    <div class="content">
+      
+      <div class="content-wrapper">
+        <div class="header">
+          Get <span>insights</span> that help your business grow.
+        </div>
+  
+        <p class="text">Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+          experience, and overall efficiency.
+        </p>
+      
+        <div class="stats">
+          
+          <div class="stat">
+            <div class="stat-heading">10k+ </div>
+            <div class="stat-data">companies</div>
+  
+          </div>
+  
+          <div class="stat">
+            <div class="stat-heading">314 </div>
+            <div class="stat-data">templates</div>
+  
+          </div>
+  
+          <div class="stat">
+            <div class="stat-heading">12m+</div>
+            <div class="stat-data">queries</div>
+  
+          </div>
+         
+        </div>
+      </div>
+
+
+    </div>
+
+    </div>
+
+
+  </div>
+
+
+</div>
+
+
+<script>
+
+  let count = 0;
+console.log(`Original width: ${window.innerWidth} `)
+  window.onresize = e => {
+    console.log(window.innerWidth);
+     count ++ ; 
+  if(count >= 10) {
+    console.clear(); count = 0;
+  }
+
+     
+  }
+
+</script>
+
+</body>
+</html>

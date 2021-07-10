@@ -1,0 +1,13 @@
+@import url(https://fonts.google.com/specimen/Manrope);
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Manrope';
+}
+
+body {
+  font-size: 13px;
+}
+/*# sourceMappingURL=globals.css.map */

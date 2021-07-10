@@ -1,0 +1,252 @@
+main.cover {
+  min-height: 100vh;
+  height: auto;
+  background: #ecf2f8;
+  padding: 1px;
+}
+
+main.cover section.cards {
+  width: Min(20rem, 90%);
+  margin: 2rem auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
+  grid-gap: 1rem;
+}
+
+main.cover section.cards .card {
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: .4rem;
+  position: relative;
+  overflow: hidden;
+}
+
+main.cover section.cards .card .floating_quote {
+  position: absolute;
+  display: none;
+  right: 1.2rem;
+  top: 0;
+  z-index: 0;
+  width: auto;
+}
+
+main.cover section.cards .card .floating_quote img {
+  height: 6.3rem;
+  width: 6.1rem;
+  display: block;
+}
+
+main.cover section.cards .card .testimonial_wrapper {
+  position: relative;
+  padding: 1.5rem 1rem 1.5rem 2rem;
+  z-index: 3;
+}
+
+main.cover section.cards .card .profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main.cover section.cards .card .profile figure {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+main.cover section.cards .card .profile figure img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center center;
+     object-position: center center;
+}
+
+main.cover section.cards .card .profile .profile_details {
+  margin-left: 1rem;
+}
+
+main.cover section.cards .card .profile .profile_details .name {
+  font-size: 0.8rem;
+  line-height: calc( 0.8rem + .5rem);
+  font-weight: 600;
+  color: white;
+}
+
+main.cover section.cards .card .profile .profile_details .level {
+  font-size: 0.7rem;
+  line-height: calc( 0.7rem + .5rem);
+  font-weight: 500;
+  margin-top: .15rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+main.cover section.cards .card header {
+  width: 100%;
+  margin-top: 1.1rem;
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+  padding-right: .2rem;
+  color: white;
+}
+
+main.cover section.cards .card p {
+  margin-top: .9rem;
+  margin-bottom: .3rem;
+  font-size: 13px;
+  line-height: calc(13px + 6px);
+  margin-right: .45rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-align: start;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+main.cover section.cards .card.violet {
+  background: #7541c8;
+}
+
+main.cover section.cards .card.violet p {
+  margin-right: 1.45rem;
+}
+
+main.cover section.cards .card.light-gray {
+  background: #48556a;
+}
+
+main.cover section.cards .card.black {
+  background: #19212e;
+}
+
+main.cover section.cards .card.white {
+  background: white;
+  -webkit-box-shadow: 0 10px 30px -5px rgba(72, 85, 106, 0.25);
+          box-shadow: 0 10px 30px -5px rgba(72, 85, 106, 0.25);
+}
+
+main.cover section.cards .card.white .profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main.cover section.cards .card.white .profile figure {
+  border-color: white;
+}
+
+main.cover section.cards .card.white .profile .profile_details .name {
+  color: #48556a;
+}
+
+main.cover section.cards .card.white .profile .profile_details .level {
+  color: rgba(72, 85, 106, 0.5);
+}
+
+main.cover section.cards .card.white header {
+  color: #48556a;
+}
+
+main.cover section.cards .card.white p {
+  color: rgba(72, 85, 106, 0.7);
+}
+
+@media (min-width: 375px) {
+  main.cover section.cards .card .floating_quote {
+    display: block;
+  }
+}
+
+@media (min-width: 1440px) {
+  main.cover {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main.cover section.cards {
+    width: auto;
+    height: auto;
+    -ms-grid-columns: 15.6rem 17rem 15.5rem 16rem;
+        grid-template-columns: 15.6rem 17rem 15.5rem 16rem;
+    -ms-grid-rows: fit-content fit-content;
+        grid-template-rows: -webkit-fit-content -webkit-fit-content;
+        grid-template-rows: fit-content fit-content;
+    grid-gap: 1.3rem;
+  }
+  main.cover section.cards .card {
+    height: auto;
+    width: auto;
+  }
+  main.cover section.cards .card .floating_quote {
+    right: 13%;
+  }
+  main.cover section.cards .card .floating_quote img {
+    height: 7.2rem;
+    width: 6.9rem;
+  }
+  main.cover section.cards .card p {
+    margin-top: 1.2rem;
+    margin-right: 1rem;
+  }
+  main.cover section.cards .card:nth-child(1) {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-column: 1 / 3;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1 / 2;
+  }
+  main.cover section.cards .card:nth-child(2) {
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3 / 4;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1 / 2;
+  }
+  main.cover section.cards .card:nth-child(3) {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1 / 2;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2 / 3;
+  }
+  main.cover section.cards .card:nth-child(4) {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-column: 2 / 4;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2 / 3;
+  }
+  main.cover section.cards .card:nth-child(5) {
+    -ms-grid-column: 4;
+    -ms-grid-column-span: 1;
+    grid-column: 4 / 5;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    grid-row: 1 / 3;
+  }
+}
+/*# sourceMappingURL=index.css.map */

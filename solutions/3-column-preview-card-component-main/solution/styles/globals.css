@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+}
+
+.bg-orange {
+  background-color: #e38826;
+}
+
+.bg-orange button {
+  color: #e38826;
+}
+
+.bg-blue {
+  background-color: #006970;
+}
+
+.bg-blue button {
+  color: #006970;
+}
+
+.bg-green {
+  background-color: #004241;
+}
+
+.bg-green button {
+  color: #004241;
+}
+/*# sourceMappingURL=globals.css.map */

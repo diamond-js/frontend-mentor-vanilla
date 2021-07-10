@@ -1,0 +1,124 @@
+@import url(https://fonts.google.com/specimen/Big+Shoulders+Display);
+@import url(https://fonts.google.com/specimen/Lexend+Deca);
+* {
+  font-family: 'Lexend Deca', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main.cover {
+  width: 100%;
+  background: #f2f2f2;
+  min-height: 100vh;
+  padding: .1px;
+}
+
+main.cover section.cards {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  grid-gap: 0;
+  margin: 2rem auto;
+  width: Min(80%, 19rem);
+  border-radius: .4rem;
+  overflow: hidden;
+  padding: 0;
+}
+
+main.cover section.cards .card {
+  width: 100%;
+  height: Max(24rem, -webkit-fit-content);
+  height: Max(24rem, -moz-fit-content);
+  height: Max(24rem, fit-content);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main.cover section.cards .card .card_wrapper {
+  width: 80%;
+  padding: .8rem;
+}
+
+main.cover section.cards .card .card_wrapper figure {
+  margin-top: 2rem;
+}
+
+main.cover section.cards .card .card_wrapper header {
+  margin-top: 1.5rem;
+  font-size: 2.5rem;
+  line-height: calc(2.5rem + .5rem);
+  font-weight: 700;
+  color: #f2f2f2;
+  font-family: 'Big Shoulders Display' 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main.cover section.cards .card .card_wrapper p {
+  margin-top: 1.5rem;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: calc(1rem + .5rem);
+  color: rgba(255, 255, 255, 0.75);
+}
+
+main.cover section.cards .card .card_wrapper .btn {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+main.cover section.cards .card .card_wrapper .btn button {
+  display: block;
+  width: 60%;
+  padding: .8rem .9rem;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  background: #ffffff;
+  font-weight: 700;
+  -webkit-transition: .2s linear all;
+  transition: .2s linear all;
+  border: 2px solid #ffffff;
+}
+
+main.cover section.cards .card .card_wrapper .btn button:hover, main.cover section.cards .card .card_wrapper .btn button:active {
+  background: none;
+  color: #ffffff;
+}
+
+@media (min-width: 1440px) {
+  main.cover {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main.cover section.cards {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    -ms-grid-columns: (auto)[3];
+        grid-template-columns: repeat(3, auto);
+  }
+  main.cover section.cards .card {
+    height: 32rem;
+    margin: 0;
+    width: 20rem;
+    padding: 1rem;
+  }
+  main.cover section.cards .card .card_wrapper {
+    width: 80%;
+  }
+  main.cover section.cards .card .card_wrapper .btn {
+    margin: 0;
+    -webkit-transform: translateY(6rem);
+            transform: translateY(6rem);
+  }
+}
+/*# sourceMappingURL=index.css.map */

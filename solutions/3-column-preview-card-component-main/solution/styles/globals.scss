@@ -1,0 +1,33 @@
+@import './variables';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+.bg-orange{
+background-color: $bright-orange;
+button {
+    color: $bright-orange;
+}
+}
+
+.bg-blue{
+background-color: $dark-cyan;
+button {
+    color: $dark-cyan;
+    }
+}
+
+.bg-green{
+background-color: $darker-cyan;
+button {
+color: $darker-cyan;
+}
+}
