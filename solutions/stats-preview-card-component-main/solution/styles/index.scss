@@ -5,12 +5,13 @@ width: 100%;
 height: 100%;
 display: flex;
 align-items: center;
-padding: 0 1rem;
+justify-content: center;
+padding: 1rem 1rem;
 
 .card{
     height: fit-content;
     width: Min(17rem, 100%);
-    margin: 0 auto;
+    // margin: 10rem auto;
     background: $dark-blue;
     border-radius: .7rem;
     overflow: hidden;
@@ -141,7 +142,7 @@ padding: 0 1rem;
 .cover{
     .card{
         width: 80%;
-        height: 65%;
+        height: 450.44px ; // 65%;
         overflow: hidden;
         border-radius: none;
 
