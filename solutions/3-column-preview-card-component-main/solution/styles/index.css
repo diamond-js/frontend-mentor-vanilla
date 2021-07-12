@@ -1,7 +1,7 @@
-@import url(https://fonts.google.com/specimen/Big+Shoulders+Display);
-@import url(https://fonts.google.com/specimen/Lexend+Deca);
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
 * {
-  font-family: 'Lexend Deca', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Lexend Deca';
 }
 
 main.cover {
@@ -52,14 +52,14 @@ main.cover section.cards .card .card_wrapper header {
   line-height: calc(2.5rem + .5rem);
   font-weight: 700;
   color: #f2f2f2;
-  font-family: 'Big Shoulders Display' 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Big Shoulders Display';
 }
 
 main.cover section.cards .card .card_wrapper p {
   margin-top: 1.5rem;
   font-weight: 400;
-  font-size: 1rem;
-  line-height: calc(1rem + .5rem);
+  font-size: .9rem;
+  line-height: calc(.9rem + .5rem);
   color: rgba(255, 255, 255, 0.75);
 }
 
@@ -109,11 +109,15 @@ main.cover section.cards .card .card_wrapper .btn button:hover, main.cover secti
   main.cover section.cards .card {
     height: 32rem;
     margin: 0;
-    width: 20rem;
+    width: 20.5rem;
     padding: 1rem;
   }
   main.cover section.cards .card .card_wrapper {
     width: 80%;
+  }
+  main.cover section.cards .card .card_wrapper p {
+    font-size: .95rem;
+    line-height: calc(1rem + .5rem);
   }
   main.cover section.cards .card .card_wrapper .btn {
     margin: 0;

@@ -2,6 +2,8 @@
 
 This is a solution to the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
+![Design preview for the Testimonials grid section coding challenge](./design/desktop-preview.jpg)
+
 ## Table of contents
 
 - [Overview](#overview)
@@ -24,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./solutions/screenshot.png)
+![](./solution/screenshot.png)
 
 
 ### Links
@@ -54,4 +56,4 @@ I definately want to work on my css grid skills and blending modes
 ## Author
 
 - Website - [Dynasty](https://jovial-aryabhata-77d3b8.netlify.app/)
-- Frontend Mentor - [@diamond-js](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@diamond-js](https://www.frontendmentor.io/profile/diamond-js)

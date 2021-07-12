@@ -61,7 +61,7 @@
   color: rgba(255, 255, 255, 0.75);
   margin-top: .3rem;
   padding: .1rem 1rem;
-  font-size: .9rem;
+  font-size: .85rem;
   font-weight: 400;
   line-height: calc(.9rem + .5rem);
   text-align: center;
@@ -71,6 +71,7 @@
   color: white;
   display: -ms-grid;
   display: grid;
+  width: 90%;
   margin-top: .6rem;
   margin-bottom: 1.8rem;
 }
@@ -93,17 +94,18 @@
   font-size: 1.4rem;
   line-height: calc(1.4rem + .5rem);
   font-weight: 700;
-  text-transform: uppercase;
+  letter-spacing: .55px;
 }
 
 .cover .card .content .stats .stat .stat-data {
   color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
-  font-size: .5rem;
-  line-height: calc(.5rem + .5rem);
-  letter-spacing: .09rem;
+  font-size: 12px;
+  line-height: calc(12px + .5rem);
+  letter-spacing: .55px;
   text-transform: uppercase;
   margin-top: .2rem;
+  font-family: 'Lexend Deca';
 }
 
 @media (min-width: 375px) {
@@ -158,9 +160,9 @@
     color: rgba(255, 255, 255, 0.6);
     margin-top: 1.5rem;
     padding: 0 2rem 0 0;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 400;
-    line-height: calc(1.2rem + .5rem);
+    line-height: calc(1rem + .5rem);
     text-align: initial;
   }
   .cover .card .wrapper .content .stats {
@@ -168,6 +170,9 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     padding: 0 1rem 0 0;
     grid-gap: 3rem;
   }
